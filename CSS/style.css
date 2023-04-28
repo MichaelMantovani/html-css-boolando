@@ -1,0 +1,26 @@
+/* RESET */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CUSTOM PROPERTIES */
+
+:root{
+  --bg-header: rgb(255,105,0);
+  --bg-discount: rgb(255,0,0);
+  --bg-sustainability: rgb(0,128,0);
+  --color-fav: rgb(0,0,0);
+  --bg-fav: rgb(255,255,255);
+}
+
+
+
+/* GENERICS */
+
+
+
+
+/* UTILITY */
