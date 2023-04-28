@@ -29,12 +29,12 @@ body{
 
 
 h3{
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 500;
 }
 
 h2{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 
@@ -68,7 +68,7 @@ h2{
 
 .column{
   flex-basis: 32%;
-  
+
 }
 
 .card{
@@ -83,11 +83,15 @@ h2{
 .discount-price{
   color: var(--color-discount-price);
   font-weight: bold;
+  font-size: 13px;
 }
+
 
 .original-price{
   text-decoration: line-through;
+  font-size: 14px;
 }
+
 
 .badge{
   display: flex;
@@ -96,6 +100,8 @@ h2{
   left: 0;
   bottom: 100px;
 }
+
+
 .discount{
   background-color: var(--bg-discount-badge);
   color: var(--color-badge);
@@ -104,6 +110,7 @@ h2{
   font-weight: bold;
 }
 
+
 .sustainability{
   background-color: var(--bg-sustain-badge);
   color: var(--color-badge);
@@ -111,6 +118,7 @@ h2{
   font-size: 12px;
   font-weight: bold;
 }
+
 
 .favorite{
   background-color: var(--bg-fav);
@@ -126,4 +134,3 @@ h2{
 
 
 
-          
