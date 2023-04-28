@@ -10,17 +10,110 @@
 
 :root{
   --bg-header: rgb(255,105,0);
-  --bg-discount: rgb(255,0,0);
-  --bg-sustainability: rgb(0,128,0);
-  --color-fav: rgb(0,0,0);
+  --bg-sustain-badge: rgb(0,128,0);
+  --bg-discount-badge: rgb(255,0,0);
   --bg-fav: rgb(255,255,255);
+  --color-discount-price: rgb(255,20,33);
+  --color-badge: rgb(255,255,255);
+  --color-fav: rgb(0,0,0);
 }
 
 
 
 /* GENERICS */
 
+h3{
+  font-size: 16px;
+  font-weight: 600;
+}
 
+h2{
+  font-size: 24px;
+}
 
 
 /* UTILITY */
+
+.container{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+/* .bd-black{
+  border: 2px dashed black;
+} */
+
+
+/* HEADER */
+
+
+/* MAIN */
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 
+to be removed */
+
+.column{
+  width: 400px;
+}
+
+.card{
+  position: relative;
+}
+
+.model-pic{
+  width: 100%;
+  height: auto;
+}
+
+.discount-price{
+  color: var(--color-discount-price);
+  font-weight: bold;
+}
+
+.original-price{
+  text-decoration: line-through;
+}
+
+.discount{
+  background-color: var(--bg-discount-badge);
+  color: var(--color-badge);
+  position: absolute;
+  left: 0;
+  bottom: 105px;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sustainability{
+  background-color: var(--bg-sustain-badge);
+  color: var(--color-badge);
+  position: absolute;
+  left: 50px;
+  bottom: 105px;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.favorite{
+  background-color: var(--bg-fav);
+  color: var(--color-fav);
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 15px;
+}
+
+
+
+
+
+
+          
