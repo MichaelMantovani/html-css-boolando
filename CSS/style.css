@@ -89,25 +89,26 @@ h2{
   text-decoration: line-through;
 }
 
+.badge{
+  display: flex;
+  gap: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+}
 .discount{
   background-color: var(--bg-discount-badge);
   color: var(--color-badge);
-  position: absolute;
-  left: 0;
-  bottom: 105px;
-  padding: 4px;
-  font-size: 16px;
+  padding: 4px 6px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 .sustainability{
   background-color: var(--bg-sustain-badge);
   color: var(--color-badge);
-  position: absolute;
-  left: 50px;
-  bottom: 105px;
-  padding: 4px;
-  font-size: 16px;
+  padding: 4px 6px;
+  font-size: 12px;
   font-weight: bold;
 }
 
