@@ -28,6 +28,21 @@ body{
 }
 
 
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 6px;
+}
+
+
+ ul{
+  display: flex;
+  list-style: none;
+  gap: 10px;
+ }
+
+
 h3{
   font-size: 12px;
   font-weight: 500;
@@ -38,6 +53,9 @@ h2{
 }
 
 
+
+
+
 /* UTILITY */
 
 .container{
@@ -45,30 +63,53 @@ h2{
   margin: 0 auto;
 }
 
+.bg-header{
+  background-color: var(--bg-header);
+}
+
+
 
 
 /* HEADER */
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.nav-bar{
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo > img{
+  width: 150px;
+}
+
+.nav-icon{
+  color: white;
+}
 
 
 /* MAIN */
 
 .row{
+  margin-top: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-}
-
-
-.row{
-  display: flex;
   gap: 15px;
 }
 
 
 .column{
   flex-basis: 32%;
-
 }
 
 .card{
@@ -79,6 +120,7 @@ h2{
   width: 100%;
   height: auto;
 }
+
 
 .discount-price{
   color: var(--color-discount-price);
