@@ -28,7 +28,7 @@ h3{
 }
 
 h2{
-  font-size: 24px;
+  font-size: 20px;
 }
 
 
@@ -39,9 +39,6 @@ h2{
   margin: 0 auto;
 }
 
-/* .bd-black{
-  border: 2px dashed black;
-} */
 
 
 /* HEADER */
@@ -53,13 +50,19 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-/* 
-to be removed */
+
+.row{
+  display: flex;
+  gap: 15px;
+}
+
 
 .column{
-  width: 400px;
+  flex-basis: 32%;
+  
 }
 
 .card{
