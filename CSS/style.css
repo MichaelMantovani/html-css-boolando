@@ -32,7 +32,7 @@ a{
   text-decoration: none;
   color: white;
   font-weight: bold;
-  margin-left: 6px;
+  margin-right: 6px;
 }
 
 
@@ -48,8 +48,20 @@ h3{
   font-weight: 500;
 }
 
+
 h2{
   font-size: 16px;
+}
+
+h4{
+  color: white;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+
+nav{
+  font-size: 12px;
 }
 
 
@@ -120,9 +132,8 @@ header{
 }
 
 .pics{
-  display: flex;
   width: 100%;
-  height: 100%;
+  height: 91%;
 }
 
 .model-pic{
@@ -144,9 +155,7 @@ header{
 }
 
 .info{
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  margin-top: 2px;
 }
 
 .discount-price{
@@ -202,4 +211,26 @@ header{
 .favorite:hover{
   color: red;
   font-size: 20px;
+  }
+
+
+
+  /* FOOTER */
+
+  footer{
+    background-color: black;
+  }
+
+
+  .footer{
+    margin-top: 16px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .social{
+    font-size: 18px;
   }
